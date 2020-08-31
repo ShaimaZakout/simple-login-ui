@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logoIV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="30dp"
+        android:src="@drawable/ic_pharmacy" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:shadowDy="2"
+        android:shadowDx="2"
+        android:shadowRadius="15"
+        android:shadowColor="#8B8989"/>
+<!--    <android.support.v7.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--    -->
+<!--        >-->
+
+
+<!--    </android.support.v7.widget.CardView>-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+
+        android:layout_weight="0"
+        android:background="@drawable/background"
+        android:text="sign in"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:onClick="nextBtn"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="0"
+        android:background="@drawable/background"
+        android:text="Regester"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+</LinearLayout>
